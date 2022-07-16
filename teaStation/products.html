@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/style/main.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar  -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li>
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li>
+          <a href="skills.html" class="nav-link">skills</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-link">about</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link">products</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- end of nav button -->
+
+
+
+    
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavours of</h2>
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <a target="_blank" href="skills.html" class="btn banner-btn"
+          >explore
+        </a>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- products -->
+    <section class="products">
+      <div class="section-center clearfix">
+        <!-- products info -->
+        <article class="products-info">
+          <!-- section title -->
+          <div class="section-title">
+            <h3>check out</h3>
+            <h2>our products</h2>
+          </div>
+          <!-- end of section title -->
+          <p class="products-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel,
+            laboriosam.
+          </p>
+          <a href="products.html" class="btn">inventory</a>
+        </article>
+        <!-- products inventory-->
+        <article class="products-inventory clearfix">
+          <!-- single products -->
+          <div class="product">
+            <img class="product-img" src="/images/product-1.jpeg" alt="1" />
+            <h4 class="product-title">ginger peach</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+          <!-- end of single products -->
+          <!-- single products -->
+          <div class="product">
+            <img class="product-img" src="/images/product-2.jpeg" alt="1" />
+            <h4 class="product-title">white tea</h4>
+            <h4 class="product-price">$3.99</h4>
+          </div>
+          <!-- end of single products -->
+          <!-- single products -->
+          <div class="product">
+            <img class="product-img" src="/images/product-3.jpeg" alt="1" />
+            <h4 class="product-title">green tea</h4>
+            <h4 class="product-price">$7.99</h4>
+          </div>
+          <!-- end of single products -->
+        </article>
+      </div>
+    </section>
+    <!-- end of products -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-- social icon -->
+          <a href="t.me/mosadeqz" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <!-- social icon -->
+          <a
+            href="https://github.com/parham-mosadeq?tab=repositories"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- social icon -->
+          <a href="" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <div class="footer-text">
+          <h4>
+            &copy;<span id="year"></span>
+            <span class="company">tea station</span>
+            all rights reserved
+          </h4>
+        </div>
+      </div>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
