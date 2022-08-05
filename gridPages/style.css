@@ -274,7 +274,8 @@ Tiles
 
   .tiles img {
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .tile-1 {
@@ -320,7 +321,8 @@ Tiles
 
   .tiles img {
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .tile-1 {
